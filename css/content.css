@@ -31,22 +31,22 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	content: " ";
 }
 .content {
-	position:relative;
+	position: relative;
 	border: 15px solid transparent;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 	margin-top: 15px;
-	#-moz-box-shadow: 5px 5px 5px #CCC;
+	#-moz-box-shadow:     5px 5px 5px #CCC;
 	#-webkit-box-shadow: 5px 5px 5px #CCC;
 	#box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
-.toggleContainer{
+.toggleContainer {
 	background: #FFFFFF;
 	padding: 20px;
 	position: relative;
 }
-.toggleSection{
-	position:relative;
-	z-index:3;
+.toggleSection {
+	position: relative;
+	z-index: 3;
 	background: #ffffff;
 }
 .toggler h3 {
@@ -74,15 +74,14 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	top: 0.9em;
 	position: relative;
 }
-.biosContainer{
-	position:relative;
+.biosContainer {
+	position: relative;
 	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
-    
 }
-.togglseInfo#bio{
-	position:relative;
+.togglseInfo#bio {
+	position: relative;
 	border: 15px solid transparent;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 .imagen {
 	float: left;
@@ -122,7 +121,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	margin-left: 35px;
 	font-size: 14px;
 	font-style: italic;
-	position:relative;
+	position: relative;
 	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
 }
 .disclaimer {
@@ -138,15 +137,27 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .textoContact {
 	text-align: center;
 }
-.fooster {
-	#background:    url('../images/bg.gif') repeat-x scroll #8A7575;
-	#background-color:#8A7575;
-	#border-top: 8px transparent;
+.footer {
+	
+	padding: 12px;
+	margin-top:20px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-	border-top: 8px solid transparent;
+	#border-top: 8px solid transparent;
 }
-.insidesFooter {
+.insideFooter {	
+	position: relative;
 	background-color: #8A7575;
-	height: 120px;
+	height: 64px;
 	width: 100%;
+}
+.insideFooter div {
+	z-index: 0;
+	float:right;
+	margin-top: 20px;
+	padding: 5px;
+	position:inherit;
+	font-size: 14px;
+	color: white;
+	font-style: italic;
+	text-align: right;
 }
