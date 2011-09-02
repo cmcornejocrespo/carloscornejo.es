@@ -8,8 +8,8 @@
 	width: 65%;
 	min-height: 100%;
 	margin-top: -120px;
-	line-height: 18px;
-	font-size: 20px;
+	line-height: 20px;
+	font-size: 15px;
 	margin: 0 auto;
 	margin-top: 10px;
 }
@@ -32,16 +32,16 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 .content {
 	position: relative;
-	border: 15px solid transparent;
+	border: 20px solid transparent;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 	margin-top: 15px;
-	#-moz-box-shadow:     5px 5px 5px #CCC;
+	line-height: 24px;
+	#-moz-box-shadow:         5px 5px 5px #CCC;
 	#-webkit-box-shadow: 5px 5px 5px #CCC;
-	#box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 .toggleContainer {
 	background: #FFFFFF;
-	padding: 20px;
+	padding: 10px;
 	position: relative;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
@@ -49,6 +49,12 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	position: relative;
 	z-index: 3;
 	background: #ffffff;
+}
+.toggleSection#scientific {
+	background: transparent;
+}
+.toggleInfo#scientific {
+	background: none;
 }
 .toggler h3 {
 	margin-top: 6px;
@@ -63,6 +69,10 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .toggleInfo h4 {
 	font-style: normal;
 }
+.toggleInfo h5 {
+	font-style: normal;
+	font-size: 13px;
+}
 .toggleInfo li:before {
 	content: "";
 	border-color: transparent #8A7575;
@@ -75,21 +85,15 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	top: 0.9em;
 	position: relative;
 }
-.biosContainer {
-	position: relative;
-	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
-}
-.togglseInfo#bio {
-	position: relative;
-	border: 15px solid transparent;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-}
 .imagen {
 	float: left;
 	width: 130px;
 	height: 174px;
-	padding: 3px;
-	margin: 10px;
+	padding: 5px;
+	margin: 5px;
+}
+.bioContainer {
+	padding: 8px;
 }
 .textoBio {
 	margin-top: -3px;
@@ -112,18 +116,33 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 .justifiedText {
 	text-align: justify;
-	padding: 10px 30px 15px 30px;
+	padding: 0 0 10px;
+}
+.justifiedText#technical {
+	padding: 20px;
 }
 .toggleInfo:after {
 	overflow: visible;
 }
 .toggleInfo {
-	width: 92%;
-	margin-left: 35px;
-	font-size: 14px;
+	width: 95%;
+	margin-left: 37px;
 	font-style: italic;
 	position: relative;
 	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
+}
+.educationTx{
+	z-index:1;
+	position:relative;
+	background: url('../images/big-fade4.png') repeat-x scroll 0 0;
+}
+.education {
+	position:relative;
+	z-index:0;
+	padding: 20px;
+}
+.pfExperience {
+	padding: 10px;
 }
 .disclaimer {
 	background: #D0C8C8;
@@ -137,14 +156,14 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 .textoContact {
 	text-align: center;
+	padding: 20px;
 }
 .footer {
-	
 	padding: 12px;
-	margin-top:20px;
+	margin-top: 20px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
-.insideFooter {	
+.insideFooter {
 	position: relative;
 	background-color: #8A7575;
 	height: 64px;
@@ -153,12 +172,13 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 .insideFooter div {
 	z-index: 0;
-	float:right;
-	margin-top: 10px;
+	float: right;
+	margin-top: 30px;
 	padding: 5px;
-	position:inherit;
-	font-size: 14px;
+	position: inherit;
+	font-size: 13px;
 	color: white;
 	font-style: italic;
 	text-align: right;
+	line-height: 12px;
 }

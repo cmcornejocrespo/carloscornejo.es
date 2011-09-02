@@ -9,14 +9,12 @@
 	float: left;
 	position: absolute;
 	z-index: 0;
-	background: url('../images/pattern.png') repeat scroll 0 0;
 	height: 100px;
 	width: 100%;
 }
 .bioBaseTx {
 	float: left;
 	position: absolute;
-	border-radius: 5px;
 	z-index: 0;
 	background: url('../images/bg_dotted.png') repeat scroll 0 0;
 	height: 100px;
