@@ -43,6 +43,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	background: #FFFFFF;
 	padding: 20px;
 	position: relative;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 .toggleSection {
 	position: relative;
@@ -141,19 +142,19 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	
 	padding: 12px;
 	margin-top:20px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-	#border-top: 8px solid transparent;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 .insideFooter {	
 	position: relative;
 	background-color: #8A7575;
 	height: 64px;
 	width: 100%;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 .insideFooter div {
 	z-index: 0;
 	float:right;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding: 5px;
 	position:inherit;
 	font-size: 14px;
