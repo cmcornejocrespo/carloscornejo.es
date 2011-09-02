@@ -1,31 +1,73 @@
+.container {
+	font-family: Georgia, serif;
+	
+	color: #8A7575;
+	/*
+	 * #777777;
+	 */
+	width: 65%;
+	min-height: 100%;
+	margin-top: -120px;
+	line-height: 18px;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+* html .container {
+	height: 100%
+}
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px;/* thank you Erik J - negate effect of float*/
+}
+.container:after {/* thank you Erik J - instead of using display table for ie8*/
+	clear: both;
+	display: block;
+	height: 1%;
+	content: " ";
+}
 .header {
 	position: relative;
 	border: 1px solid orange;
-	background-color: white;
 	border-radius: 5px;
 	padding: 10px;
 	height: 70px;
 	-moz-box-shadow: 5px 5px 5px #ccc;
 	-webkit-box-shadow: 5px 5px 5px #ccc;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-	background: url('../images/big-fade3.png') repeat-x scroll 0 0 transparent;
+}
+.logoBaseTx{
+	position: inherit;
+	z-index:0;
+	background: url('../images/bg_dotted.png') repeat scroll 0 0 transparent;
+	
+}
+.logoTopTx{
+	position: inherit;
+	background: url('../images/big-fade4.png') repeat-x scroll 0 0 transparent;
+	z-index: 2;
 }
 .logo {
 	margin-top: 8px;
 	position: inherit;
-	z-index: 0;
-	background: url("../images/logo.png") no-repeat;
+	z-index: 3;
+	background: url("../images/logo4.png") no-repeat;
 	height: 54px;
+	width: 45%;
 }
 /* to add more icons just setting the percent width of the layer */
 .headerSocial {
 	position: inherit;
 	float: right;
-	z-index: 1;
+	z-index: 4;
 	width: 187px;;
 	height: 40px;
-	margin-right: -8px;
-	margin-top: -56px;
+	margin-right: -24px;
+	margin-top: -54px;
 }
 .social li, .social a {
 	display: block;

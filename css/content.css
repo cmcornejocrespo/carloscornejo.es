@@ -4,21 +4,25 @@
 	border-radius: 5px;
 	padding: 20px;
 	margin-top: 15px;
-	-moz-box-shadow: 5px 5px 5px #ccc;
-	-webkit-box-shadow: 5px 5px 5px #ccc;
+	-moz-box-shadow: 5px 5px 5px #CCC;
+	-webkit-box-shadow: 5px 5px 5px #CCC;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-	background: url('../images/big-fade3.png') repeat-x scroll 0 0 transparent;
+	background: url('../images/big-fade4.png') repeat-x scroll 0 0 transparent;
 }
 .toggler h3 {
-	clear: both;
-	color: #8A7575;
-	margin-top: 2px;
-	margin-bottom: 3px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	#text-shadow:  1px 1px 1px #8A7575;
+	#text-shadow: #8A7575 0px 1px 0, #fff 0 -1px 0;
+	font-size: 25px;
 }
 .toggleInfo ul {
 	margin: 0.75em 0;
 	padding: 0 2em;
 	list-style: none;
+}
+.toggleInfo h4 {
+	font-style: normal;
 }
 .toggleInfo li:before {
 	content: "";
@@ -47,6 +51,16 @@
 }
 .textoBio p {
 	margin-top: 10px;
+}
+.textoBio a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #777777;
+}
+.justifiedText a {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #777777;
 }
 .justifiedText {
 	text-align: justify;
@@ -81,10 +95,15 @@
 .textoContact {
 	text-align: center;
 }
-.footer {
-	background: url('../images/bg.gif') repeat-x scroll #8A7575;
+.fooster {
+	#background:   url('../images/bg.gif') repeat-x scroll #8A7575;
+	#background-color:#8A7575;
+	#border-top: 8px transparent;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	border-top: 8px solid transparent;
+}
+.insidesFooter {
+	background-color: #8A7575;
 	height: 120px;
 	width: 100%;
-	clear: both;
-	visibility: hidden;
 }
