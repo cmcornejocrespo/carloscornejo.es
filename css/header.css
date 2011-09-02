@@ -1,31 +1,57 @@
 .header {
 	position: relative;
-	border: 1px solid orange;
-	background-color: white;
-	border-radius: 5px;
-	padding: 10px;
-	height: 70px;
 	-moz-box-shadow: 5px 5px 5px #ccc;
 	-webkit-box-shadow: 5px 5px 5px #ccc;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-	background: url('../images/big-fade3.png') repeat-x scroll 0 0 transparent;
+	height: 100px;
+}
+.logoBaseTx {
+	float: left;
+	position: absolute;
+	border-radius: 5px;
+	z-index: 0;
+	background: url('../images/pattern.png') repeat scroll 0 0;
+	height: 100px;
+	width: 100%;
+}
+.bioBaseTx {
+	float: left;
+	position: absolute;
+	border-radius: 5px;
+	z-index: 0;
+	background: url('../images/bg_dotted.png') repeat scroll 0 0;
+	height: 100px;
+	width: 100%;
+}
+
+.logoTopTx {
+	float: left;
+	position: absolute;
+	border-radius: 5px;
+	background: url('../images/big-fade4.png') repeat-x scroll 0 0;
+	height: 40px;
+	width: 100%;
+	z-index: 2;
 }
 .logo {
-	margin-top: 8px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 27px;
 	position: inherit;
-	z-index: 0;
-	background: url("../images/logo.png") no-repeat;
+	z-index: 3;
+	background: url("../images/logo_italic.png") no-repeat transparent;
 	height: 54px;
+	width: 45%;
 }
 /* to add more icons just setting the percent width of the layer */
 .headerSocial {
-	position: inherit;
-	float: right;
+	position: absolute;
+	right: 0px;
 	z-index: 1;
 	width: 187px;;
 	height: 40px;
-	margin-right: -8px;
-	margin-top: -56px;
+	margin-right: -10px;
+	margin-top: 20px;
 }
 .social li, .social a {
 	display: block;

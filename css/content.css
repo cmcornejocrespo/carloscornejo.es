@@ -1,24 +1,65 @@
+.container {
+	font-family: Georgia, serif;
+	color: #8A7575;
+	font-style: italic;
+	/*
+	 * #777777;
+	 */
+	width: 65%;
+	min-height: 100%;
+	margin-top: -120px;
+	line-height: 18px;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+* html .container {
+	height: 100%
+}
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px;/* thank you Erik J - negate effect of float*/
+}
+.container:after {/* thank you Erik J - instead of using display table for ie8*/
+	clear: both;
+	display: block;
+	height: 1%;
+	content: " ";
+}
 .content {
-	border: 1px solid orange;
-	background-color: white;
-	border-radius: 5px;
-	padding: 20px;
+	position:relative;
+	border: 15px solid transparent;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 	margin-top: 15px;
-	-moz-box-shadow: 5px 5px 5px #ccc;
-	-webkit-box-shadow: 5px 5px 5px #ccc;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-	background: url('../images/big-fade3.png') repeat-x scroll 0 0 transparent;
+	#-moz-box-shadow: 5px 5px 5px #CCC;
+	#-webkit-box-shadow: 5px 5px 5px #CCC;
+	#box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.toggleContainer{
+	background: #FFFFFF;
+	padding: 20px;
+}
+.toggleSection{
+	position:relative;
+	z-index:3;
+	background: #ffffff;
 }
 .toggler h3 {
-	clear: both;
-	color: #8A7575;
-	margin-top: 2px;
-	margin-bottom: 3px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 25px;
 }
 .toggleInfo ul {
 	margin: 0.75em 0;
 	padding: 0 2em;
 	list-style: none;
+}
+.toggleInfo h4 {
+	font-style: normal;
 }
 .toggleInfo li:before {
 	content: "";
@@ -31,6 +72,16 @@
 	left: -1em;
 	top: 0.9em;
 	position: relative;
+}
+.biosContainer{
+	position:relative;
+	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
+    
+}
+.togglseInfo#bio{
+	position:relative;
+	border: 15px solid transparent;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 .imagen {
 	float: left;
@@ -48,6 +99,16 @@
 .textoBio p {
 	margin-top: 10px;
 }
+.textoBio a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #777777;
+}
+.justifiedText a {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #777777;
+}
 .justifiedText {
 	text-align: justify;
 	padding: 10px 30px 15px 30px;
@@ -56,17 +117,12 @@
 	overflow: visible;
 }
 .toggleInfo {
-	padding: 10px;
-	border: 2px solid orange;
-	border-radius: 15px;
 	width: 92%;
 	margin-left: 35px;
 	font-size: 14px;
 	font-style: italic;
-	-moz-box-shadow: 5px 5px 5px #D0C8C8;
-	-webkit-box-shadow: 5px 5px 5px #D0C8C8;
-	box-shadow: 5px 5px 5px #D0C8C8;
-	background: url('../images/big-fade4.png') repeat-x scroll 0 0 transparent;
+	position:relative;
+	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
 }
 .disclaimer {
 	background: #D0C8C8;
@@ -81,10 +137,15 @@
 .textoContact {
 	text-align: center;
 }
-.footer {
-	background: url('../images/bg.gif') repeat-x scroll #8A7575;
+.fooster {
+	#background:    url('../images/bg.gif') repeat-x scroll #8A7575;
+	#background-color:#8A7575;
+	#border-top: 8px transparent;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	border-top: 8px solid transparent;
+}
+.insidesFooter {
+	background-color: #8A7575;
 	height: 120px;
 	width: 100%;
-	clear: both;
-	visibility: hidden;
 }
