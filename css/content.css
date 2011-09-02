@@ -42,6 +42,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .toggleContainer{
 	background: #FFFFFF;
 	padding: 20px;
+	position: relative;
 }
 .toggleSection{
 	position:relative;
