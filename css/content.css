@@ -62,8 +62,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	font-size: 25px;
 }
 .toggleInfo ul {
-	margin: 0.75em 0;
-	padding: 0 2em;
+	margin: 0.65em 0;
+	padding: 0 1.5em;
 	list-style: none;
 }
 .toggleInfo h4 {
@@ -72,6 +72,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .toggleInfo h5 {
 	font-style: normal;
 	font-size: 13px;
+	margin-left: 22px;
+	
 }
 .toggleInfo li:before {
 	content: "";
@@ -82,7 +84,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	height: 0;
 	width: 0;
 	left: -1em;
-	top: 0.9em;
+	top: 1.1em;
 	position: relative;
 }
 .imagen {
@@ -107,12 +109,12 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .textoBio a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #777777;
+	color: #8A7575;
 }
 .justifiedText a {
 	text-decoration: none;
-	font-weight: bolder;
-	color: #777777;
+	font-weight: lighter;
+	color: #8A7575;
 }
 .justifiedText {
 	text-align: justify;
@@ -139,7 +141,12 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .education {
 	position:relative;
 	z-index:0;
-	padding: 20px;
+	padding: 10px;
+}
+.education ul{
+	padding-left: 25px;
+	padding-right: 0;
+	margin-top: -2px;
 }
 .pfExperience {
 	padding: 10px;
