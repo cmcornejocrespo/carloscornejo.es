@@ -31,17 +31,17 @@
 	<body>
 		<!-- Piwik -->
 		<script type="text/javascript">
-var pkBaseURL=(("https:"==document.location.protocol)?"https://carloscornejo.es/piwik/":"http://carloscornejo.es/piwik/");
-document.write(unescape("%3Cscript src='"+pkBaseURL+"piwik.js' type='text/javascript'%3E%3C/script%3E"));
+			var pkBaseURL = (("https:" == document.location.protocol) ? "https://carloscornejo.es/piwik/" : "http://carloscornejo.es/piwik/");
+			document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
 
 		</script>
 		<script type="text/javascript">
-try {
-var piwikTracker=Piwik.getTracker(pkBaseURL+"piwik.php",1);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {
-}
+			try {
+				var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+				piwikTracker.trackPageView();
+				piwikTracker.enableLinkTracking();
+			} catch( err ) {
+			}
 		</script>
 		<noscript>
 			<p><img src="http://carloscornejo.es/piwik/piwik.php?idsite=1" style="border:0" alt="" />
@@ -359,7 +359,12 @@ piwikTracker.enableLinkTracking();
 				</div>
 				<div class='footer'>
 					<div class='insideFooter'>
-						<div>
+						<div class="workInProgress">
+							This site is best viewed in FF6 and Chrome12. Anyway, we are facing the cross-brossing integration with other webkits.
+							<br />
+							At the same time, we are working to offer a mobile-adapted website.
+						</div>
+						<div class="copyright">
 							Carlos M. Cornejo
 							<br>
 							&copy; 2011 carloscornejo.es

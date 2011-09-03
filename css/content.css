@@ -177,10 +177,21 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	width: 100%;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
-.insideFooter div {
+.workInProgress{
 	z-index: 0;
+	float: left;
+	padding: 5px;
+	position: inherit;
+	font-size: 13px;
+	color: white;
+	font-style: italic;
+	text-align: left;
+	line-height: 14px;
+}
+.copyright {
+	z-index: 1;
 	float: right;
-	margin-top: 30px;
+	margin-top: -8px;
 	padding: 5px;
 	position: inherit;
 	font-size: 13px;
