@@ -2,9 +2,6 @@
 	font-family: Georgia, serif;
 	color: #8A7575;
 	font-style: italic;
-	/*
-	 * #777777;
-	 */
 	width: 65%;
 	min-height: 100%;
 	margin-top: -120px;
@@ -33,27 +30,25 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .content {
 	position: relative;
 	border: 20px solid transparent;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
 	margin-top: 15px;
 	line-height: 24px;
-	#-moz-box-shadow:         5px 5px 5px #CCC;
-	#-webkit-box-shadow: 5px 5px 5px #CCC;
 }
 .toggleContainer {
 	background: #FFFFFF;
 	padding: 10px;
 	position: relative;
-	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
 }
 .toggleSection {
 	position: relative;
 	z-index: 3;
-	background: #ffffff;
+	background: #FFFFFF;
 }
-.toggleSection#scientific {
+.toggleSection#scientificSection {
 	background: transparent;
 }
-.toggleInfo#scientific {
+.toggleInfo#scientificInfo {
 	background: none;
 }
 .toggler h3 {
@@ -73,7 +68,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	font-style: normal;
 	font-size: 13px;
 	margin-left: 22px;
-	
 }
 .toggleInfo li:before {
 	content: "";
@@ -136,17 +130,17 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	position: relative;
 	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
 }
-.educationTx{
-	z-index:1;
-	position:relative;
+.educationTx {
+	z-index: 1;
+	position: relative;
 	background: url('../images/big-fade4.png') repeat-x scroll 0 0;
 }
 .education {
-	position:relative;
-	z-index:0;
+	position: relative;
+	z-index: 0;
 	padding: 10px;
 }
-.education ul{
+.education ul {
 	padding-left: 25px;
 	padding-right: 0;
 	margin-top: -2px;
@@ -171,16 +165,16 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .footer {
 	padding: 12px;
 	margin-top: 20px;
-	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
 }
 .insideFooter {
 	position: relative;
 	background-color: #8A7575;
-	height: 64px;
+	height: 100px;
 	width: 100%;
-	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
 }
-.workInProgress{
+.workInProgress {
 	z-index: 0;
 	float: left;
 	padding: 5px;
@@ -190,16 +184,30 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	font-style: italic;
 	text-align: left;
 	line-height: 14px;
+	width: 100%;
+	text-align: center;
 }
 .copyright {
 	z-index: 1;
 	float: right;
-	margin-top: -8px;
-	padding: 5px;
 	position: inherit;
 	font-size: 13px;
 	color: white;
 	font-style: italic;
-	text-align: right;
-	line-height: 12px;
+	text-align: center;
+	width: 100%;
 }
+.AAA {
+	z-index: 2;
+	position: relative;
+	width: 40px;
+}
+.AAA a {
+	background-image: url('http://www.w3.org/Icons/valid-xhtml10');
+	height: 31px;
+	width: 88px;
+	margin-top: 2px;
+	float:left;
+	margin-left: 340px;
+}
+

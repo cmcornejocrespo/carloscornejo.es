@@ -1,10 +1,9 @@
 .header {
 	position: relative;
-	-moz-box-shadow: 6px 6px 6px #ccc;
-	-webkit-box-shadow: 6px 6px 6px #ccc;
-	box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
 	height: 100px;
 }
+
 .logoBaseTx {
 	float: left;
 	position: absolute;
@@ -20,7 +19,6 @@
 	height: 100px;
 	width: 100%;
 }
-
 .logoTopTx {
 	float: left;
 	position: absolute;

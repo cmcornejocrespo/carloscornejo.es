@@ -3,7 +3,7 @@ window.addEvent('domready', function() {
         var thisSlider = new Fx.Slide(item.getElement('.toggleInfo'), {
             duration: 800
         });
-        if(!item.getElement('#bio')){
+        if(!item.getElement('#toggleTrick')){
         	thisSlider.hide();
         }
         
