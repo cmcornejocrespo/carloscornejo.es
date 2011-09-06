@@ -26,23 +26,23 @@
 	background: url('../images/big-fade4.png') repeat-x scroll 0 0;
 	height: 40px;
 	width: 100%;
-	z-index: 2;
+	z-index: 1;
 }
 .logo {
 	float: left;
 	margin-left: 12px;
 	margin-top: 27px;
 	position: inherit;
-	z-index: 3;
+	z-index: 2;
 	background: url("../images/logo_italic.png") no-repeat transparent;
-	height: 54px;
-	width: 45%;
+	height: 52px;
+	width: 382px;
 }
 /* to add more icons just setting the percent width of the layer */
 .headerSocial {
 	position: absolute;
 	right: 0px;
-	z-index: 1;
+	z-index: 3;
 	width: 187px;;
 	height: 40px;
 	margin-right: -10px;
