@@ -2,7 +2,7 @@
 	font-family: Georgia, serif;
 	color: #8A7575;
 	font-style: italic;
-	width: 65%;
+	width: 59em;
 	min-height: 100%;
 	margin-top: -120px;
 	line-height: 20px;
@@ -174,40 +174,33 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	width: 100%;
 	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
 }
+.insideFooter li {
+	list-style: none;
+}
 .workInProgress {
-	z-index: 0;
-	float: left;
 	padding: 5px;
-	position: inherit;
 	font-size: 13px;
 	color: white;
 	font-style: italic;
 	text-align: left;
 	line-height: 14px;
-	width: 100%;
 	text-align: center;
 }
 .copyright {
-	z-index: 1;
-	float: right;
-	position: inherit;
 	font-size: 13px;
 	color: white;
 	font-style: italic;
 	text-align: center;
-	width: 100%;
-}
-.AAA {
-	z-index: 2;
-	position: relative;
-	width: 40px;
-}
-.AAA a {
-	background-image: url('http://www.w3.org/Icons/valid-xhtml10');
-	height: 31px;
-	width: 88px;
-	margin-top: 2px;
-	float:left;
-	margin-left: 355px;
 }
 
+.AAA li {
+	list-style: none;
+	width: 6em;
+	margin: 0 auto;
+}
+.AAA li a {
+	display: block;
+	height: 32px;
+	background: url('http://www.w3.org/Icons/valid-xhtml10') no-repeat transparent;
+	text-align: center;
+}
