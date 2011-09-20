@@ -1,7 +1,7 @@
 .header {
 	position: relative;
 	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
-	height: 100px;
+	height: 6.7em;
 }
 
 .logoBaseTx {
@@ -32,7 +32,7 @@
 	float: left;
 	margin-left: 12px;
 	margin-top: 27px;
-	position: inherit;
+	position: absolute;
 	z-index: 2;
 	background: url("../images/logo_italic.png") no-repeat transparent;
 	height: 52px;
