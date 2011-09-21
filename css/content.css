@@ -110,10 +110,17 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	font-weight: bold;
 	color: #8A7574;
 }
+.textoBio a:hover {
+	text-decoration: underline;
+}
 .justifiedText a {
 	text-decoration: none;
-	font-weight: lighter;
+	font-weight:bold;
 	color: #8A7576;
+}
+.justifiedText a:hover {
+
+	text-decoration: underline;
 }
 .justifiedText {
 	text-align: justify;
@@ -164,7 +171,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	text-align: center;
 	padding: 20px;
 }
-.footer {	
+.footer {
 	padding: 12px;
 	margin-top: 20px;
 	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
