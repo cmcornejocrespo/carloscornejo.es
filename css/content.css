@@ -26,6 +26,15 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	height: 1%;
 	content: " ";
 }
+a {
+	font-weight: bold;
+	color: #8A7574;
+	-moz-transition: color 0.4s ease-out 0s;
+	text-decoration: none;
+}
+a:hover {
+	color: #D0C8C8;
+}
 .content {
 	color: #8A7576;
 	position: relative;
@@ -104,23 +113,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 .textoBio p {
 	margin-top: 5px;
-}
-.textoBio a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #8A7574;
-}
-.textoBio a:hover {
-	text-decoration: underline;
-}
-.justifiedText a {
-	text-decoration: none;
-	font-weight:bold;
-	color: #8A7576;
-}
-.justifiedText a:hover {
-
-	text-decoration: underline;
 }
 .justifiedText {
 	text-align: justify;
