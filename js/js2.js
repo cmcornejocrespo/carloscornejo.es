@@ -1,5 +1,6 @@
 /**
  * @author Carlos M.
+ * snippet of code modified from original's mootools demos
  */
 window.addEvent('domready', function() {
 
